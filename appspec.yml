@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/medicaneuro
+    destination: /var/www/html/medicaneuro
 AfterInstall:
   - location: scripts/change_permissions.sh
     timeout: 300
